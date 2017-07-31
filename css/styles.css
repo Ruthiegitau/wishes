@@ -1,5 +1,5 @@
 .image1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/pic1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/pic3.jpg");
     background-attachment: fixed;
     transition: 2sec;
     background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .image2 {
-    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/pic2.jpg");
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0, 0, 0, 0.4)), url("../img/pic4.jpg");
     background-attachment: fixed;
     transition: 2sec;
     background-size: cover;
@@ -28,6 +28,15 @@
 
 
 }
+.image4 {
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0, 0, 0, 0.4)),url("../img/pic5.jpg");
+    background-attachment: fixed;
+    transition: 2sec;
+    background-size: cover;
+    height: 100vh;
+
+
+}
 
 .item {
     background-size: cover;
@@ -36,7 +45,7 @@
 
 #landing-page-text {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     left: 20%;
     top: 160px;
